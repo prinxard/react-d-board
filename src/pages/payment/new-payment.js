@@ -1,0 +1,46 @@
+import { NewPayment, Paymentconfirmation } from '../../components/Images/Images'
+import SectionTitle from '../../components/section-title'
+import Widget from '../../components/widget'
+
+
+
+const Index = () => (
+    <>
+        <SectionTitle subtitle="Payments" />
+        <Widget description={<span>New Payments</span>}>
+            <div className="text-base bg-grey-50">
+                <p className="mb-5">This menu gives you the option to initiate payments for MDAs and every associate revenue items.</p>
+                <NewPayment />
+                <ul className="mt-4">
+                    <li>
+                       1. Click on “Select MDA”and choose the MDA you wish to make payment to
+                    </li>
+                    <li>
+                       2. Click on “Select Item” to choose the item you wish to pay for
+                    </li>
+                    <li>
+                       3. Select your Tax Station (if highlighted one is not correct)
+                    </li>
+                    <li>
+                       4. Enter the Amount you wish to pay
+                    </li>
+                    <li>
+                      5.  Click on the “Select Payment Channel” which will drop down all the available payment channels (Interswitch, Bank, Remita and eTransact).
+                    </li>   
+                    <li>
+                      6.  After all these is done, click on “Make Payment”(6)
+                    </li>
+                </ul>
+                <div className="my-7">
+                    Click on Confirm Payment, which will either direct you to generate a <br /> payment assessment for Bank payment or to the Online (Debit card) payment channel.
+                </div>
+                <Paymentconfirmation />
+                <p>
+                Click on Confirm Payment, which will either direct you to generate a payment assessment for Bank payment or to the Online (Debit card) payment channel.
+                </p>
+            </div>
+
+        </Widget>
+    </>
+)
+export default Index
