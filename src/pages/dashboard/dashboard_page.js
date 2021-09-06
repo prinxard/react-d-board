@@ -2,7 +2,6 @@ import { Dash } from '../../components/Images/Images'
 import SectionTitle from '../../components/section-title'
 import Widget from '../../components/widget'
 
-// from '../components/section-title'
 
 const Index = () => (
   <>

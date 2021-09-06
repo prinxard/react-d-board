@@ -16,7 +16,7 @@ const Index = () => (
         <SectionTitle subtitle="Onboarding" />
 
         <Widget description={<h5>step by step guide to onboard</h5>} >
-            <div className="text-base bg-grey-50">
+            <div className="text-base ">
                 <p>For first time users, one is expected to click on the “sign up” button.</p>
                 <div>
                     <OnboardSignup />
