@@ -25,7 +25,7 @@ const Index = () => (
                        4. Enter the Amount you wish to pay
                     </li>
                     <li>
-                      5.  Click on the “Select Payment Channel” which will drop down all the available payment channels (Interswitch, Bank, Remita and eTransact).
+                      5.  Click on the “Select Payment Channel” which will drop down all the available <br /> payment channels (Interswitch, Bank, Remita and eTransact).
                     </li>   
                     <li>
                       6.  After all these is done, click on “Make Payment”
