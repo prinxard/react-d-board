@@ -32,6 +32,7 @@ export const OnboardSignup = () => {
       alt="signup"
       width={748}
       height={329}
+      
     />
   );
 };
@@ -43,6 +44,7 @@ export const Submitonboard = () => {
       alt="submit"
       width={748}
       height={329}
+ 
     />
   );
 };

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 const Widget = ({title = null, description = null, right = null, children}) => {
   return (
-    <div className="widget w-full p-4 mb-4 rounded-lg bg-white  border border-gray-100 dark:bg-gray-900 dark:border-gray-800">
+    <div className="widget w-full p-7 mb-4 rounded-lg bg-gray-50  border border-gray-100 dark:bg-gray-900 dark:border-gray-800">
       {(title || description || right) && (
         <div className="flex flex-row items-center justify-between mb-6">
           <div className="flex flex-col">

@@ -58,6 +58,7 @@ const Images = () => (
             src="/images/27.png"
             alt="media"
             className={`${size} rounded-full max-w-full shadow-lg mr-2 mb-2`}
+
           />
         ))}
       </div>

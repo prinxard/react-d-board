@@ -1,10 +1,10 @@
-// import { NewPayment, Paymentconfirmation } from '../../components/Images/Images'
+import { NewPayment, Paymentconfirmation } from '../../components/Images/Images'
 import SectionTitle from '../../components/section-title'
 import Widget from '../../components/widget'
 
 
 
-const Index = () => (
+export const NewPay = () => (
     <>
         <SectionTitle subtitle="Payments" />
         <Widget description={<span>New Payments</span>}>
@@ -34,7 +34,7 @@ const Index = () => (
                 <div className="my-7">
                     Click on Confirm Payment, which will either direct you to generate a <br /> payment assessment for Bank payment or to the Online (Debit card) payment channel.
                 </div>
-                {/* <Paymentconfirmation /> */}
+                <Paymentconfirmation />
                 <p>
                 Click on Confirm Payment, which will either direct you to generate a payment assessment for Bank payment or to the Online (Debit card) payment channel.
                 </p>
@@ -43,4 +43,3 @@ const Index = () => (
         </Widget>
     </>
 )
-export default Index
