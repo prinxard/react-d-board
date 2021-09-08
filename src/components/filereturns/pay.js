@@ -7,7 +7,7 @@ import Widget from '../widget'
 export const MonthlyRem = () => (
     <>
         <SectionTitle subtitle="Payments" />
-        <Widget description={<span>Payment History</span>}>
+        <Widget description={<span>Pay Monthly remmittance</span>}>
             <div className="text-base w-3/4 flex justify-center">
                 <div>
                     <h4 className="mt-7">PAY MONTHLY REMITTANCE</h4>
