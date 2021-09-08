@@ -21,7 +21,6 @@ const Index = () => (
                             <OnboardSignup />
                         </figure>
                     </div>
-
                     <div className="mt-5">
                         <p className="mb-1">The portal provides a signup page where user enters taxpayer ID and clicks on “submit”.</p>
                         <figure className='filter drop-shadow-xl md:drop-shadow-xl'>
