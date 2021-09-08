@@ -29,7 +29,7 @@ const Index = () => (
                         </figure>
 
                         <p>After which a token is sent via email/SMS to the registered email and phone number linked to the Tax Identification Number.</p>
-                        <p className="flex mt-4"><span><FiAlertTriangle color={'#ffd700'} size={'2.5rem'} /></span></p>
+                        <p className="flex mt-4"><span><FiAlertTriangle color={'#FFA500'} size={'2.5rem'} /></span></p>
                         <p className="mt-5 flex"><strong> User is required to have a valid Tax Identification Number to be able to sign up on the portal.</strong></p>
                         <p className="mt-5"><strong>Note:</strong> To register for a Tax Identification Number,
                             user can visit the State IRS <a href="#" style={{ color: "blue" }}>website (self-service)</a> or click on Get KGTIN on the registration

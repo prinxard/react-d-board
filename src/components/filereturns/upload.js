@@ -36,7 +36,7 @@ export const Upload = () => (
 
                     <div>
                         <p className="my-5">
-                            <FiAlertTriangle color={'#ffd700'} size={'2.5rem'} />
+                            <FiAlertTriangle color={'#FFA500'} size={'2.5rem'} />
                         </p>
                         <p><strong> Portal uploads only accepts CSV file formats.</strong></p>
                         <p className="my-8">
