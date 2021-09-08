@@ -10,7 +10,8 @@ const Index = () => (
       <div className="text-base w-3/4 flex justify-center">
         <div>
           <p className="mb-2">The Portal dashboard gives the taxpayer an overview on their tax history.
-            User can also access various menu on the left side bar.</p>
+            User can also access various menu on the left side bar.
+          </p>
           <figure className='filter drop-shadow-xl md:drop-shadow-xl'>
             <Dash />
           </figure>
