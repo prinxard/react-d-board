@@ -70,7 +70,7 @@ export const MonthlyRem = () => (
                         <figure>
                             <Downloadsteps />
                         </figure>
-                        <p className="my-8">Then click to Download Receipt</p>
+                        <p className="my-8">Then click on download receipt to download Receipt</p>
                         <figure className="filter drop-shadow-xl md:drop-shadow-xl">
                             <Recipt2 />
                         </figure>
