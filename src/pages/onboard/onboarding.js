@@ -47,7 +47,7 @@ const Index = () => (
                         </figure>
                         <p>On-boarding happens once. On subsequent visits, user just logs in.</p>
                     </div>
-                    <div className="mt-3">
+                    <div className="my-7">
                         <h3 className="mb-3">Login</h3>
                         <figure className='filter drop-shadow-xl md:drop-shadow-xl'>
                             <Loginimg />

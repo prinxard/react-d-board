@@ -33,7 +33,7 @@ const Index = () => {
         { index: 2, title: 'Unpaid Assessment', content: <UnpaidTab /> },
     ]
     return (
-        <>
+      <>
             <SectionTitle subtitle="Payment" />
             <div className="flex flex-wrap">
                 <div className="w-full">
