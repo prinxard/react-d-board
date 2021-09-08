@@ -22,7 +22,7 @@ export const MonthlyRem = () => (
                                 2. Pay at bank branch.
                             </li>
                         </ol>
-                        <figure className="filter drop-shadow-xl md:drop-shadow-xl">
+                        <figure className="mb-3 filter drop-shadow-xl md:drop-shadow-xl">
                             <Selectmethod />
                         </figure>
                         <p className="mb-7"><strong>For Online</strong> - Click on “Pay Now”<sup>(1)</sup> to enter your
@@ -78,7 +78,7 @@ export const MonthlyRem = () => (
                         <figure className="filter drop-shadow-xl md:drop-shadow-xl">
                             <Paymentreciept />
                         </figure>
-                        <p><strong>Printed receipt (SAMPLE)</strong></p>
+                        <p className="mb-8"><strong>Printed receipt (SAMPLE)</strong></p>
                     </div>
 
                 </div>
