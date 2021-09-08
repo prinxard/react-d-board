@@ -17,7 +17,7 @@ const Index = () => (
                 <div>
                     <p>For first time users, one is expected to click on the “sign up” button, to enable the user create an account in the portal.</p>
                     <div>
-                        <figure className='filter drop-shadow-xl md:drop-shadow-xl'>
+                        <figure className="filter drop-shadow-xl md:drop-shadow-xl">
                             <OnboardSignup />
                         </figure>
                     </div>

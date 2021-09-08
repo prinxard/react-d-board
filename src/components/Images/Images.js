@@ -131,7 +131,7 @@ export const Selectmethod = () => {
       layout="intrinsic"
       src="/images/userguide/payment/unpaidassessment/selectmethod.PNG"
       alt="payment"
-      width={1048}
+      width={748}
       height={329}
     />
   );
@@ -153,8 +153,8 @@ export const Paynowimg = () => {
       layout="intrinsic"
       src="/images/userguide/payment/unpaidassessment/paynowimg.PNG"
       alt="payment"
-      width={1131}
-      height={500}
+      width={748}
+      height={329}
     />
   );
 };
@@ -164,8 +164,8 @@ export const Payynow = () => {
       layout="intrinsic"
       src="/images/userguide/payment/unpaidassessment/payynow.PNG"
       alt="payment"
-      width={1131}
-      height={500}
+      width={748}
+      height={329}
     />
   );
 };
@@ -197,8 +197,8 @@ export const Downloadsteps = () => {
       layout="intrinsic"
       src="/images/userguide/payment/unpaidassessment/downloadsteps.PNG"
       alt="payment"
-      width={1266}
-      height={400}
+      width={748}
+      height={329}
     />
   );
 };
@@ -208,8 +208,8 @@ export const Recipt2 = () => {
       layout="intrinsic"
       src="/images/userguide/payment/unpaidassessment/recipt2.PNG"
       alt="payment"
-      width={1266}
-      height={450}
+      width={748}
+      height={329}
     />
   );
 };
@@ -231,7 +231,7 @@ export const Monthlypayereturns = () => {
       layout="intrinsic"
       src="/images/userguide/uploadmonthly/monthlypayereturns.PNG"
       alt="payment"
-      width={1048}
+      width={748}
       height={329}
     />
   );
@@ -242,7 +242,7 @@ export const Viewuploads = () => {
       layout="intrinsic"
       src="/images/userguide/viewmonthly/viewuploads.PNG"
       alt="payment"
-      width={1048}
+      width={748}
       height={329}
     />
   );
@@ -253,7 +253,7 @@ export const Paynow = () => {
       layout="intrinsic"
       src="/images/userguide/viewmonthly/paynow.PNG"
       alt="payment"
-      width={1048}
+      width={748}
       height={329}
     />
   );
@@ -264,7 +264,7 @@ export const Returns = () => {
       layout="intrinsic"
       src="/images/userguide/atosmodule/returns.PNG"
       alt="payment"
-      width={1048}
+      width={748}
       height={329}
     />
   );
@@ -275,7 +275,7 @@ export const Breakdown = () => {
       layout="intrinsic"
       src="/images/userguide/atosmodule/breakdown.PNG"
       alt="payment"
-      width={1048}
+      width={748}
       height={329}
     />
   );

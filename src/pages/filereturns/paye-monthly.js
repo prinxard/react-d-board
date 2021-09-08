@@ -30,9 +30,9 @@ const PayTab = () => (
 
 const Index = () => {
     const tabs = [
-        { index: 1, title: 'Upload', content: <UploadTab /> },
-        { index: 2, title: 'View', content: <ViewTab /> },
-        { index: 0, title: 'Pay', content: <PayTab /> },
+        { index: 0, title: 'Upload', content: <UploadTab /> },
+        { index: 1, title: 'View', content: <ViewTab /> },
+        { index: 2, title: 'Pay', content: <PayTab /> },
     ]
     return (
         <>
