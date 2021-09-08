@@ -136,6 +136,17 @@ export const Selectmethod = () => {
     />
   );
 };
+export const MonthlyRemittance = () => {
+  return (
+    <Image
+      layout="intrinsic"
+      src="/images/userguide/payment/unpaidassessment/monthlyremittance.PNG"
+      alt="payment"
+      width={748}
+      height={329}
+    />
+  );
+};
 export const Interswitchpay = () => {
   return (
     <Image

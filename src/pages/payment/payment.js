@@ -26,8 +26,6 @@ const UnpaidTab = () => (
     </div>
 )
 
-
-
 const Index = () => {
     const tabs = [
         { index: 0, title: 'New Payment', content: <NewPaymentTab /> },
