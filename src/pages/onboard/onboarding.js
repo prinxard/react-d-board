@@ -52,7 +52,7 @@ const Index = () => (
                         <figure className='filter drop-shadow-xl md:drop-shadow-xl'>
                             <Loginimg />
                         </figure>
-                        <p>This takes you straight to your dashboard, where they can see their total remittance, pending remittance and tax receipt.</p>
+                        <p>This takes you straight to your dashboard, where you can see the total remittance, pending remittance and tax receipt.</p>
                     </div>
                 </div>
             </div>
