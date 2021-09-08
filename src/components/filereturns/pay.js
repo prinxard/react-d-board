@@ -10,8 +10,9 @@ export const MonthlyRem = () => (
         <Widget description={<span>Pay Monthly remmittance</span>}>
             <div className="text-base w-3/4 flex justify-center">
                 <div>
-                    <h4 className="mt-7">PAY MONTHLY REMITTANCE</h4>
+
                     <div className="mb-4">
+                        <h4>PAY MONTHLY REMITTANCE</h4>
                         <p>Click on an unpaid assessment to use one of two means of payment;</p>
                         <ol>
                             <li>
@@ -21,16 +22,23 @@ export const MonthlyRem = () => (
                                 2. Pay at bank branch.
                             </li>
                         </ol>
+                        <figure className="filter drop-shadow-xl md:drop-shadow-xl">
+                            <Selectmethod />
+                        </figure>
+                        <p className="my-3"><strong>For Online</strong> - Click on “Pay Now”<sup>(1)</sup> to enter your
+                            email and Phone number,
+                            then Click on “Select Payment Channel”<sup>(2)</sup> to select the
+                            available online payment channel and Click on “Confirm Payment” <sup>(3)</sup> to pay.
+                        </p>
                     </div>
 
-                    <figure className="filter drop-shadow-xl md:drop-shadow-xl">
-                        <Selectmethod />
-                    </figure>
+                    <div>
 
-                    <p className="my-3"><strong>For Online</strong> - Click on “Pay Now”<br /> (1) to enter your email and Phone number, then Click on “Select Payment Channel”<br /> (2) to select the available online payment channel and Click on “Confirm Payment” <br /> (3) to pay.</p>
-                    <figure className="filter drop-shadow-xl md:drop-shadow-xl">
-                        <Interswitchpay />
-                    </figure>
+                        <figure className="filter drop-shadow-xl md:drop-shadow-xl">
+                            <Interswitchpay />
+                        </figure>
+                    </div>
+
                     <p className="mt-3">Upon successful payment, you will be redirected to your dashboard.</p>
                     <p className="my-5"><strong>For Bank branch</strong> - Click on “Pay Now” to enter your email and Phone number.</p>
                     <figure className="filter drop-shadow-xl md:drop-shadow-xl">

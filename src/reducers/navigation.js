@@ -98,12 +98,12 @@ const initialState = [
          
         ],
       },
-      {
-        url: '/atomodule/atos-module',
-        icon: <FiPieChart size={'1.5rem'} />,
-        title: 'RHM ATOs Module',
-        items: [],
-      },
+      // {
+      //   url: '/atomodule/atos-module',
+      //   icon: <FiPieChart size={'1.5rem'} />,
+      //   title: 'RHM ATOs Module',
+      //   items: [],
+      // },
 
       // {
       //   url: '#',
