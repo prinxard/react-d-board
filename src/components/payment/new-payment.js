@@ -44,11 +44,6 @@ export const NewPay = () => (
                         <figure className='filter drop-shadow-xl md:drop-shadow-xl'>
                             <Paymentconfirmation />
                         </figure>
-                        <p>
-                            Click on Confirm Payment, which will either
-                            direct you to generate a payment assessment
-                            for Bank payment or to the Online (Debit card) payment channel.
-                        </p>
                     </div>
                 </div>
             </div>
