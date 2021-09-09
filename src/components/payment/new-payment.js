@@ -3,7 +3,6 @@ import SectionTitle from '../../components/section-title'
 import Widget from '../../components/widget'
 
 
-
 export const NewPay = () => (
     <>
         <SectionTitle subtitle="Payments" />
