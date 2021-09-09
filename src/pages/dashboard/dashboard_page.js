@@ -7,8 +7,7 @@ const Index = () => (
   <>
     <SectionTitle title="Dashboard" />
     <Widget description={<span>Dashboard</span>}>
-      <div className="text-base w-3/4 flex justify-center">
-        
+      <div className="text-base w-3/4 flex justify-center">  
         <div>
           <p className="mb-2">The Portal dashboard gives the taxpayer an overview on their tax history.
             User can also access various menu on the left side bar.
@@ -31,8 +30,8 @@ const Index = () => (
               USER GUIDE- link to user guide
             </li>
           </ul>
-        </div>
 
+        </div>
       </div>
     </Widget>
   </>

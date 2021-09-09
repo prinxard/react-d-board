@@ -21,18 +21,6 @@ export const Upload = () => (
                         To get the required template for filing monthly PAYE returns, click on <em>dowmload sample CSV</em>,
                         sample data is provided for download. Delete sample data provided and save your own data as CSV
                     </p>
-                    {/* <ul>
-                        <li>
-                            Click on “DOWNLOAD SAMPLE CSV” for the Monthly PAYE returns
-                            template and fill in the necessary data in the right format.
-                        </li>
-                        <li>
-                            Select year and month
-                        </li>
-                        <li>
-                            Choose the document to be uploaded and click on “submit”
-                        </li>
-                    </ul> */}
 
                     <div>
                         <p className="my-5">
