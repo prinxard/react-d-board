@@ -32,7 +32,7 @@ const Index = () => (
                         <p className="flex mt-4"><span><FiAlertTriangle color={'#FFA500'} size={'2.5rem'} /></span></p>
                         <p className="mt-5 flex"><strong> User is required to have a valid Tax Identification Number to be able to sign up on the portal.</strong></p>
                         <p className="mt-5"><strong>Note:</strong> To register for a Tax Identification Number,
-                            user can visit the State IRS <a href="#" style={{ color: "blue" }}>website (self-service)</a> or click on Get KGTIN on the registration
+                            user can visit the State IRS <a href="https://irs.kg.gov.ng/" style={{ color: "blue" }}>website (self-service)</a> or click on Get KGTIN on the registration
                             menu on the signup page on the portal [INDIVIDUAL] or [BUSINESS] as it applies to you.
                         </p>
                     </div>
