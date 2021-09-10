@@ -5,8 +5,7 @@ import Widget from '../../components/widget'
 
 export const NewPay = () => (
     <div id="new-payments">
-        <Widget>
-            <div className="text-base w-3/4 flex justify-center">
+            <div className="text-base">
                 <div>
                     <div>
                         <p className="mb-4"><strong>New Payments</strong> </p>
@@ -47,7 +46,5 @@ export const NewPay = () => (
                     </div>
                 </div>
             </div>
-
-        </Widget>
     </div>
 )

@@ -66,7 +66,7 @@ const initialState = [
             items: [
               {
                 title: 'Upload',
-                url: '/filereturns/paye-monthly#upload',
+                url: '/filereturns/paye-monthly',
                 items: []
               },
               {

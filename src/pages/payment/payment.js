@@ -10,12 +10,16 @@ import { UnpaidAs } from '../../components/payment/unpaid-assessment'
 
 const Index = () => {
     return (
-      <>
-            <SectionTitle subtitle="Payment" />
-            <div className="flex flex-wrap">
-                <NewPay />
-                <PayHistory />
-                <UnpaidAs />
+        <>
+            <div className="w-3/4 flex justify-center">
+                <div>
+                    <SectionTitle subtitle="Payment" />
+                    <div className="flex flex-wrap">
+                        <NewPay />
+                        <PayHistory />
+                        <UnpaidAs />
+                    </div>
+                </div>
             </div>
         </>
     )

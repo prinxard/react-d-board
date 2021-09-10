@@ -6,16 +6,14 @@ import Widget from '../../components/widget'
 
 export const PayHistory = () => (
     <div id="payment-history">
-        <Widget>
-            <div className="text-base w-3/4 flex justify-center" >
+            <div className="text-base" >
                 <div>
-                    <p className="mb-4"><strong>Payment History</strong></p>
+                    <p className="mt-16 mb-4"><strong>Payment History</strong></p>
                     <p>This provides users with a view of payments made over time.</p>
                     <figure className="filter drop-shadow-xl md:drop-shadow-xl">
                         <Paymenthistory />
                     </figure>
                 </div>
             </div>
-        </Widget>
     </div>
 )

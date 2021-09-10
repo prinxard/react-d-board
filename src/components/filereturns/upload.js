@@ -1,14 +1,9 @@
 import { FiAlertTriangle } from 'react-icons/fi';
 import { Monthlypayereturns, MonthlyRemittance } from '../../components/Images/Images'
-import SectionTitle from '../../components/section-title'
-import Widget from '../../components/widget'
-
-
 
 export const Upload = () => (
-    <div id="upload">
-        <Widget>
-            <div className="text-base w-3/4 flex justify-center">
+    <div id="upload"> 
+            <div className="text-base">
                 <div>
                     <p className="mb-4"><strong>Upload Schedule</strong></p>
                     <p className="mb-1">From the side menu bar – click on File Returns -
@@ -41,12 +36,11 @@ export const Upload = () => (
                             indicating rows and columns
                             where the specific error can be found.
                         </p>
-                        <p className="mt-5">
+                        <p>
                             The system computes the tax expected and redirects you to a page where you can view the uploaded schedule
                         </p>
                     </div>
                 </div>
             </div>
-        </Widget>
     </div>
 )

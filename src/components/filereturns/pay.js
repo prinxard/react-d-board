@@ -6,11 +6,11 @@ import Widget from '../widget'
 
 export const MonthlyRem = () => (
     < div id="pay">
-        <Widget >
-            <div className="text-base w-3/4 flex justify-center">
+       
+            <div className="text-base">
                 <div>
-                    <p className="mb-4"><strong>Pay Monthly remmittance</strong></p>
-                    <div className="mb-4">
+                    <p className="mt-10 mb-3"><strong>Pay Monthly remmittance</strong></p>
+                    <div className="my-1">
                         <p>Click on an unpaid assessment to use one of two means of payment;</p>
                         <ol className="mb-5">
                             <li>
@@ -87,6 +87,6 @@ export const MonthlyRem = () => (
                 </div>
             </div>
 
-        </Widget>
+   
     </div>
 )
