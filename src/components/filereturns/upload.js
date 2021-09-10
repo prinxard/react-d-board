@@ -6,12 +6,12 @@ import Widget from '../../components/widget'
 
 
 export const Upload = () => (
-    <>
-        <SectionTitle subtitle="PAYE Monthly" />
-        <Widget description={<span>Upload Schedule</span>}>
+    <div id="upload">
+        <Widget>
             <div className="text-base w-3/4 flex justify-center">
                 <div>
-                    <p className="mb-4">From the side menu bar – click on File Returns -
+                    <p className="mb-4"><strong>Upload Schedule</strong></p>
+                    <p className="mb-1">From the side menu bar – click on File Returns -
                         click on the PAYE Monthly, “Upload” button
                     </p>
                     <figure className="filter drop-shadow-xl md:drop-shadow-xl">
@@ -27,7 +27,7 @@ export const Upload = () => (
                             <FiAlertTriangle color={'#FFA500'} size={'2.5rem'} />
                         </p>
                         <p><strong> Portal uploads only accepts CSV file formats.</strong></p>
-                        <p className="my-8">
+                        <p className="mt-8">
                             Now select the year <sup> (1) </sup> and month <sup> (2) </sup> of returns, then click on Select
                             File button <sup> (3) </sup> and select the schedule document you saved. Click the Submit <sup> (4) </sup>  button
                             to upload the file.
@@ -35,7 +35,7 @@ export const Upload = () => (
                         <figure className="filter drop-shadow-xl md:drop-shadow-xl">
                             <MonthlyRemittance />
                         </figure>
-                        <p className="mt-5">
+                        <p className="mt-1">
                             If all data entered are in the correct format you should
                             get a success message. <br /> if not, the system will throw up error message(s)
                             indicating rows and columns
@@ -48,5 +48,5 @@ export const Upload = () => (
                 </div>
             </div>
         </Widget>
-    </>
+    </div>
 )

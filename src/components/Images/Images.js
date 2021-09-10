@@ -230,7 +230,7 @@ export const Paymentreciept = () => {
       layout="intrinsic"
       src="/images/userguide/payment/unpaidassessment/paymentreciept.PNG"
       alt="payment"
-      width={393}
+      width={600}
       height={508}
     />
   );

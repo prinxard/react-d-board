@@ -9,38 +9,15 @@ import {
 import { MonthlyRem } from '../../components/filereturns/pay'
 
 
-const UploadTab = () => (
-    <div className="w-full">
-        <Upload />
-    </div>
-)
-
-const ViewTab = () => (
-    <div className="w-full">
-        <View />
-    </div>
-)
-const PayTab = () => (
-    <div className="w-full">
-        <MonthlyRem />
-    </div>
-)
-
-
-
 const Index = () => {
-    const tabs = [
-        { index: 0, title: 'Upload', content: <UploadTab /> },
-        { index: 1, title: 'View', content: <ViewTab /> },
-        { index: 2, title: 'Pay', content: <PayTab /> },
-    ]
+
     return (
         <>
-            <SectionTitle subtitle="Payment" />
+            <SectionTitle subtitle="PAYE Monthly" />
             <div className="flex flex-wrap">
-                <div className="w-full">
-                    <UnderlinedTabs tabs={tabs} />
-                </div>
+                <Upload />
+                <View />
+                <MonthlyRem />
             </div>
         </>
     )

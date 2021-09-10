@@ -16,7 +16,6 @@ import {
   Dashboard,
   FileReturns,
   Invoice,
-  // UserGuide,
 } from '../components/Icons/index'
 
 const initialState = [
@@ -39,25 +38,23 @@ const initialState = [
         url: '/',
         icon: <Invoice />,
         title: 'PAYMENT',
-        url: '/payment/payment',
-        items: [],
-        // items: [
-        //   {
-        //     url: '/payment/new-payment',
-        //     title: 'New Payment',
-        //     items: [],
-        //   },
-        //   {
-        //     url: '/payment/payment-history',
-        //     title: 'Payment History',
-        //     items: [],
-        //   },
-        //   {
-        //     url: '/payment/unpaid-assessment',
-        //     title: 'Unpaid Assessment',
-        //     items: [],
-        //   },
-        // ],
+        items: [
+          {
+            url: `/payment/payment`,
+            title: 'New Payment',
+            items: [],
+          },
+          {
+            url: `/payment/payment#payment-history`,
+            title: 'Payment History',
+            items: [],
+          },
+          {
+            url: `/payment/payment#unpaid-assesment`,
+            title: 'Unpaid Assessment',
+            items: [],
+          },
+        ],
       },
       {
         url: '/',
@@ -66,20 +63,23 @@ const initialState = [
         items: [
           {
             title: 'PAYE Monthly',
-            items: [],
-            url: '/filereturns/paye-monthly'
-            // items: [
-            //   {
-            //     title: 'Upload',
-            //     url: '/uploads/monthly',
-            //     items: []
-            //   },
-            //   {
-            //     title: 'View',
-            //     url: '/uploads/viewmonthly',
-            //     items: [],
-            //   },
-            // ],
+            items: [
+              {
+                title: 'Upload',
+                url: '/filereturns/paye-monthly#upload',
+                items: []
+              },
+              {
+                title: 'View',
+                url: '/filereturns/paye-monthly#view',
+                items: [],
+              },
+              {
+                title: 'Pay',
+                url: '/filereturns/paye-monthly#pay',
+                items: [],
+              },
+            ],
           },
           {
             title: 'Withholding',

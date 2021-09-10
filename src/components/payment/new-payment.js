@@ -4,17 +4,17 @@ import Widget from '../../components/widget'
 
 
 export const NewPay = () => (
-    <>
-        <SectionTitle subtitle="Payments" />
-        <Widget description={<span>New Payments</span>}>
+    <div id="new-payments">
+        <Widget>
             <div className="text-base w-3/4 flex justify-center">
                 <div>
                     <div>
-                        <p className="mb-5">This menu gives you the option to initiate payments for MDAs and every associate revenue items.</p>
+                        <p className="mb-4"><strong>New Payments</strong> </p>
+                        <p className="mb-1">This menu gives you the option to initiate payments for MDAs and every associate revenue items.</p>
                         <figure className="filter drop-shadow-xl md:drop-shadow-xl">
                             <NewPayment />
                         </figure>
-                        <ul className="mt-4">
+                        <ul className="mt-1">
                             <li>
                                 1. Click on “Select MDA”and choose the MDA you wish to make payment to
                             </li>
@@ -49,5 +49,5 @@ export const NewPay = () => (
             </div>
 
         </Widget>
-    </>
+    </div>
 )

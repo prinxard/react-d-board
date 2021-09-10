@@ -37,7 +37,7 @@ const Index = () => (
                         </p>
                     </div>
                     <div className="my-10">
-                        <p className="mb-2">
+                        <p className="mb-1">
                             After clicking on submit, a window like this will appear and you will have to
                             fill in all the necessary details;
                             create a password and enter the token sent to your phone/email. Once done click the “submit” button.

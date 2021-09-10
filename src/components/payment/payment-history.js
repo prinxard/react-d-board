@@ -5,11 +5,11 @@ import Widget from '../../components/widget'
 
 
 export const PayHistory = () => (
-    <>
-        <SectionTitle subtitle="Payments" />
-        <Widget description={<span>Payment History</span>}>
-            <div className="text-base w-3/4 flex justify-center">
+    <div id="payment-history">
+        <Widget>
+            <div className="text-base w-3/4 flex justify-center" >
                 <div>
+                    <p className="mb-4"><strong>Payment History</strong></p>
                     <p>This provides users with a view of payments made over time.</p>
                     <figure className="filter drop-shadow-xl md:drop-shadow-xl">
                         <Paymenthistory />
@@ -17,5 +17,5 @@ export const PayHistory = () => (
                 </div>
             </div>
         </Widget>
-    </>
+    </div>
 )

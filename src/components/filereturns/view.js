@@ -3,13 +3,14 @@ import SectionTitle from '../../components/section-title'
 import Widget from '../../components/widget'
 
 export const View = () => (
-    <>
-        <SectionTitle subtitle="PAYE Monthly" />
-        <Widget description={<span>View Schedule</span>}>
+    <div id="view">
+    
+        <Widget>
             <div className="text-base w-3/4 flex justify-center">
                 <div>
+                    <p className="mb-4"><strong>View Schedule</strong></p>
                     <div>
-                        <p className="mb-4">From the side menu – click on File Returns - click on
+                        <p className="mb-1">From the side menu – click on File Returns - click on
                             PAYE Monthly – click on the View button;
                         </p>
                         <figure className="filter drop-shadow-xl md:drop-shadow-xl">
@@ -17,7 +18,8 @@ export const View = () => (
                         </figure>
                     </div>
 
-                    <p className="my-8 ">Here you can click on a month to view Monthly PAYE returns.
+                    <p className="mb-8 ">
+                        Here you can click on a month to view Monthly PAYE returns.
                         This gives in addition to uploaded data, Expected Tax and Variance
                         (net tax paid Vs expected tax)
                     </p>
@@ -41,5 +43,5 @@ export const View = () => (
             </div>
 
         </Widget>
-    </>
+    </div>
 )
