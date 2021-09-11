@@ -1,4 +1,3 @@
-import { UnderlinedTabs } from '../../components/tabs'
 import SectionTitle from '../../components/section-title'
 import {
     NewPay,
@@ -7,6 +6,7 @@ import {
     PayHistory,
 } from '../../components/payment/payment-history'
 import { UnpaidAs } from '../../components/payment/unpaid-assessment'
+
 
 const Index = () => {
     return (

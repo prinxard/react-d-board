@@ -7,7 +7,7 @@ import Widget from '../../components/widget'
 export const UnpaidAs = () => (
     <div id="unpaid-assesment">
         <div className="text-base" >
-            <div>
+            <div className="mb-12">
                 <p className="mt-16 mb-4"><strong>Unpaid Assessment</strong> </p>
                 <p className="mb-1">This provides users with a view of all pending assessments.
                     Payments can be  initiated and completed by clicking on a particular assessment.
