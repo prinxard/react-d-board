@@ -4,8 +4,8 @@ import {
     OnboardSignup,
     Signinguppage,
     Submitonboard
-} from '../components/Images/Images'
-import Widget from '../components/widget'
+} from '../../components/Images/Images'
+import Widget from '../../components/widget'
 
 
 const Index = () => (
@@ -21,7 +21,7 @@ const Index = () => (
                         </figure>
                     </div>
 
-                    <div className="mt-5">
+                    <div className="mt-7">
                         <p className="mb-1">The portal provides a signup page where user enters taxpayer ID and clicks on “submit”.</p>
                         <figure className='filter drop-shadow-xl md:drop-shadow-xl'>
                             <Submitonboard />
