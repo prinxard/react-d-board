@@ -6,21 +6,24 @@ import {
     PayHistory,
 } from '../../components/payment/payment-history'
 import { UnpaidAs } from '../../components/payment/unpaid-assessment'
+import Widget from '../../components/widget'
 
 
 const Index = () => {
     return (
         <>
-            <div className="w-3/4 flex justify-center">
-                <div>
-                    <SectionTitle subtitle="Payment" />
-                    <div className="flex flex-wrap">
-                        <NewPay />
-                        <PayHistory />
-                        <UnpaidAs />
+            <Widget>
+                <div className="w-3/4 flex justify-center">
+                    <div>
+                        <SectionTitle subtitle="Payment" />
+                        <div className="flex flex-wrap">
+                            <NewPay />
+                            <PayHistory />
+                            <UnpaidAs />
+                        </div>
                     </div>
                 </div>
-            </div>
+            </Widget>
         </>
     )
 }
