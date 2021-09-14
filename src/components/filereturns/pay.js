@@ -10,7 +10,7 @@ export const MonthlyRem = () => (
             <div className="text-base">
                 <div>
                     <p className="mt-10 mb-3"><strong>Pay Monthly remmittance</strong></p>
-                    <div className="my-1">
+                    <div className="my-2">
                         <p>Click on an unpaid assessment to use one of two means of payment;</p>
                         <ol className="mb-5">
                             <li>
@@ -21,7 +21,7 @@ export const MonthlyRem = () => (
                             </li>
                         </ol>
                         <div>
-                            <p className="mb-1"><strong>For Online</strong> - Click on “Pay Now”<sup>(1)</sup> to enter your
+                            <p className="mb-2"><strong>For Online</strong> - Click on “Pay Now”<sup>(1)</sup> to enter your
                                 email and Phone number,
                                 then Click on “Select Payment Channel”<sup>(2)</sup> to select the
                                 available online payment channel and Click on “Confirm Payment” <sup>(3)</sup> to pay.
@@ -51,7 +51,7 @@ export const MonthlyRem = () => (
                             <Payynow />
                         </figure>
                     </div>
-                    <p className="mt-6">Now click on “Select Payment Channel” select “Bank” and Click on “Confirm Payment” to generate Assessment PDF.</p>
+                    <p className="mt-6 mb-2">Now click on “Select Payment Channel” select “Bank” and Click on “Confirm Payment” to generate Assessment PDF.</p>
                     <figure className="filter drop-shadow-xl md:drop-shadow-xl">
                         <Choosebank />
                     </figure>
@@ -64,15 +64,15 @@ export const MonthlyRem = () => (
                     <div className="mt-8">
                         <p><strong>DOWNLOAD/ PRINT RECEIPT</strong></p>
                         <p className="mb-7">After successful payment, taxpayer can download and print out receipt.</p>
-                        <p className="mb-1">To do this, on the side menu –click on “Payments”
+                        <p className="mb-2">To do this, on the side menu –click on “Payments”
                             <sup> (1) </sup> “Payment history” <sup> (2) </sup>
                             click on payment reference number <sup> (3) </sup> to open payment detail.
                         </p>
                         <figure>
                             <Downloadsteps />
                         </figure>
-                        <div className="mt-8">
-                            <p>Then click on download receipt to download Receipt</p>
+                        <div className="mt-8 mb-3">
+                            <p className="mb-2">Then click on download receipt to download Receipt</p>
                             <figure className="filter drop-shadow-xl md:drop-shadow-xl">
                                 <Recipt2 />
                             </figure>

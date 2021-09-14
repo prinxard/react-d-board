@@ -6,7 +6,7 @@ import Widget from '../../components/widget'
 const Index = () => (
   <>
     <Widget>
-      <div className="text-base w-3/4 flex justify-center">
+      <div className="text-base w-4/6 flex justify-center">
         <div>
           <p className="mb-2"><strong>Dashboard</strong> </p>
           <p className="mb-2">The Portal dashboard gives the taxpayer an overview on their tax history.
@@ -15,7 +15,7 @@ const Index = () => (
           <figure className='filter drop-shadow-xl md:drop-shadow-xl'>
             <Dash />
           </figure>
-          <p>Menus available are;</p>
+          <p className="mt-2">Menus available are;</p>
           <ul>
             <li>
               <strong>DASHBOARD</strong> – a summary report of transactions.

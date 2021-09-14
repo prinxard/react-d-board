@@ -8,7 +8,7 @@ export const View = () => (
             <div>
                 <p className="mt-6"><strong>View Schedule</strong></p>
                 <div className="mb-8 mt-3">
-                    <p className="mb-1">From the side menu – click on File Returns - click on
+                    <p className="mb-2">From the side menu – click on File Returns - click on
                         PAYE Monthly – click on the View button;
                     </p>
                     <figure className="filter drop-shadow-xl md:drop-shadow-xl">

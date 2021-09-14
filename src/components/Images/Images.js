@@ -109,7 +109,7 @@ export const Paymenthistory = () => {
       layout="intrinsic"
       src="/images/userguide/payment/paymenthistory/paymenthistory.PNG"
       alt="payment"
-      width={1048}
+      width={748}
       height={329}
     />
   );
@@ -120,7 +120,7 @@ export const Unpaidassessment = () => {
       layout="intrinsic"
       src="/images/userguide/payment/unpaidassessment/unpaidassessment.PNG"
       alt="payment"
-      width={1048}
+      width={748}
       height={329}
     />
   );

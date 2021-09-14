@@ -13,7 +13,7 @@ const Index = () => {
     return (
         <>
             <Widget>
-                <div className="w-3/4 flex justify-center">
+                <div className="w-4/6 flex justify-center">
                     <div>
                         <SectionTitle subtitle="Payment" />
                         <div className="flex flex-wrap">

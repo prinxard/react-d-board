@@ -5,16 +5,15 @@ import {
     Signinguppage,
     Submitonboard
 } from '../components/Images/Images'
-import SectionTitle from '../components/section-title'
 import Widget from '../components/widget'
 
 
 const Index = () => (
     <>
-        <SectionTitle subtitle="Onboarding" />
-        <Widget description={<h5>step by step guide to onboard</h5>} >
-            <div className="text-base w-3/4 flex justify-center">
+        <Widget>
+            <div className="text-base w-4/6 flex justify-center">
                 <div>
+                    <p className="mb-2"><strong>Onborading</strong></p>
                     <p>For first time users, one is expected to click on the “sign up” button, to enable the user create an account in the portal.</p>
                     <div>
                         <figure className="filter drop-shadow-xl md:drop-shadow-xl">
@@ -48,11 +47,11 @@ const Index = () => (
                         <p>On-boarding happens once. On subsequent visits, user just logs in.</p>
                     </div>
                     <div className="my-7">
-                        <h3 className="mb-3">Login</h3>
+                        <h4 className="mb-3">Login</h4>
                         <figure className='filter drop-shadow-xl md:drop-shadow-xl'>
                             <Loginimg />
                         </figure>
-                        <p>This takes you straight to your dashboard, where you can see the total remittance, pending remittance and tax receipt.</p>
+                        <p>Enter your staff id and password to log into your dashboard, where you can see the total remittance, pending remittance and tax receipt.</p>
                     </div>
                 </div>
             </div>
